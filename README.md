@@ -24,66 +24,12 @@ A credit point system that rewards users based on the amount of precious metals 
 ## Proposed Solution / Architecture Diagram
 The proposed solution consists of a web-based platform integrated with AI-powered location tracking and educational features. The core components include:
 
-Frontend (User Interface): React.js for an interactive web experience.
+![image](https://github.com/user-attachments/assets/a5463550-c237-47dc-b09b-50008d4dc609)
 
-Backend (Server & API): Node.js for processing user requests and handling database interactions.
-
-Database Management: PostgreSQL for storing user data, facility locations, and reward points.
-
-Mapping & Geolocation: Google Maps API for facility locating and navigation.
-
-Authentication & Security: Firebase Authenticator for user access control.
-
-Reward System: A database-driven system to track and award credits based on disposal activity.
-
-AI & Image Recognition: To categorize e-waste and suggest appropriate disposal methods.
-
-Architecture Diagram (Conceptual Overview):
-
-User Interaction → Frontend UI (React.js)
-
-User Data & Requests → Backend API (Node.js)
-
-Facility Locator & Maps → Google Maps API
-
-Authentication → Firebase
-
-Database Storage & Management → PostgreSQL
-
-Reward System & Analytics → Backend Processing
 
 ## Use Cases
-1.User Searches for E-Waste Facility
+![image](https://github.com/user-attachments/assets/b50d062e-c6ff-4de1-911e-c7b6ab6f731e)
 
-Inputs location or enables GPS
-
-Receives a list of nearby facilities with distance and directions
-
-2.User Uploads E-Waste Image
-
-AI categorizes the waste type
-
-Suggests nearest suitable facility
-
-3.User Learns About E-Waste Impact
-
-Educational pop-ups inform about hazards
-
-Suggestions for safe disposal methods
-
-4.User Earns Reward Points
-
-Registers device for disposal
-
-Earns points based on recovered materials
-
-Redeems points for eco-friendly incentives
-
-5.E-Waste Facility Monitors Impact
-
-Facility views real-time collection statistics
-
-Reports generated on recycling rates and environmental benefits
 
 ## Technology Stack
 Frontend: React.js
